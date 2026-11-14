@@ -1,0 +1,4 @@
+# Add/remove semantics: kill aNULL permanently, then append RC4-SHA.
+TLSv1.2 = server
+CipherString = DEFAULT:!aNULL:+RC4-SHA
+

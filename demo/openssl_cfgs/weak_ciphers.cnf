@@ -1,0 +1,4 @@
+# Weak suites: RC4, 3DES and an EXPORT-grade suite.
+TLSv1.2 = server
+CipherString = RC4-SHA:DES-CBC3-SHA:EXP-RC4-MD5
+

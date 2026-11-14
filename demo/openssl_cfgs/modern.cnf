@@ -1,0 +1,6 @@
+# Modern configuration: TLS 1.2 + 1.3 only, explicit AEAD suites, no DEFAULT.
+TLSv1.2 = server
+TLSv1.3 = server
+CipherString = ECDHE-RSA-AES128-GCM-SHA256:ECDHE-RSA-AES256-GCM-SHA384
+Ciphersuites = TLS_AES_256_GCM_SHA384:TLS_CHACHA20_POLY1305_SHA256
+

@@ -1,0 +1,4 @@
+# Security level explicitly lowered to zero.
+TLSv1.2 = server
+CipherString = DEFAULT:@SECLEVEL=0
+

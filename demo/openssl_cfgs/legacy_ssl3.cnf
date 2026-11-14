@@ -1,0 +1,6 @@
+# Legacy configuration: SSLv3 and TLSv1 still enabled.
+SSLv3 = server
+TLSv1 = server
+TLSv1.2 = server
+CipherString = DEFAULT
+

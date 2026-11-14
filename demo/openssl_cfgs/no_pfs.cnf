@@ -1,0 +1,4 @@
+# Static RSA key transport only: no ECDHE/DHE, no forward secrecy.
+TLSv1.2 = server
+CipherString = AES128-SHA:AES256-SHA:AES128-SHA256
+
